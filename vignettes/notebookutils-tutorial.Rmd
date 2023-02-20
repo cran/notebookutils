@@ -1,0 +1,17 @@
+---
+title: "notebookutils-tutorial"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{notebookutils-tutorial}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```r
+library(notebookutils)
+
+```
+```r
+mssparkutils.help()
+```
+
