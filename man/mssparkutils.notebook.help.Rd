@@ -14,8 +14,7 @@ No return value, print empty string to mimic the behavior of help method of mssp
 when used in azure synapse runtime.
 }
 \description{
-mssparkutils.exit(value: String): void -> This method lets you exit a notebook with a value.
-mssparkutils.run(path: String, timeoutSeconds: int, arguments: Map): String -> This method runs a notebook and returns its exit value.
+The notebook module.
 }
 \examples{
 mssparkutils.notebook.help()

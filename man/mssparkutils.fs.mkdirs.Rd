@@ -2,8 +2,7 @@
 % Please edit documentation in R/fs.R
 \name{mssparkutils.fs.mkdirs}
 \alias{mssparkutils.fs.mkdirs}
-\title{Creates the given directory if it does not exist, also creating any necessary parent * directories.
-Attach remote storage (Blob, Gen2, Azure File Share) to all working nodes (driver node and worker nodes)}
+\title{Creates the given directory if it does not exist, also creating any necessary parent * directories.}
 \usage{
 mssparkutils.fs.mkdirs(dir)
 }
@@ -15,7 +14,6 @@ FALSE to mimic the result if \code{dir} creation fail.
 }
 \description{
 Creates the given directory if it does not exist, also creating any necessary parent * directories.
-Attach remote storage (Blob, Gen2, Azure File Share) to all working nodes (driver node and worker nodes)
 }
 \examples{
 mssparkutils.fs.mkdirs("/tmp/a/b/c")

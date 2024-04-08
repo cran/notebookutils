@@ -21,6 +21,5 @@ Attach remote storage (Blob, Gen2, Azure File Share) to all working nodes (drive
 }
 \examples{
 mssparkutils.fs.mount("abfss://xxx.dfs.core.windows.net", "/mnt")
-mssparkutils.fs.mount("abfss://xxx.dfs.core.windows.net", "/mnt", { "accountKey": "xxx" })
 
 }

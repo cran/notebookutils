@@ -2,8 +2,7 @@
 % Please edit documentation in R/visualization.R
 \name{displayHTML}
 \alias{displayHTML}
-\title{notebook.R: Utility for visualization
-Construct an specific html fragment to synapse notebook front-end for rendering
+\title{Construct an specific html fragment to synapse notebook front-end for rendering
 based on user-input html content.}
 \usage{
 displayHTML(content)
@@ -15,7 +14,6 @@ displayHTML(content)
 No return value, print the \code{content} to mimic the render behavior when used in azure synapse runtime.
 }
 \description{
-notebook.R: Utility for visualization
 Construct an specific html fragment to synapse notebook front-end for rendering
 based on user-input html content.
 }
